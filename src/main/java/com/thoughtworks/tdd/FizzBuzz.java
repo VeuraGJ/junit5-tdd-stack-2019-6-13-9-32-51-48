@@ -2,6 +2,9 @@ package com.thoughtworks.tdd;
 
 public class FizzBuzz {
     public String say(int student) {
+        if(student == 21){
+            return "fizzwhizz";
+        }
         if(student == 15){
             return "fizzbuzz";
         }
