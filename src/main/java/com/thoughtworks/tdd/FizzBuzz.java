@@ -5,7 +5,7 @@ public class FizzBuzz {
         if(student == 105){
             return "fizzbuzzwhizz";
         }
-        if(student == 21){
+        if(student % 3 == 0 && student % 7 ==0){
             return "fizzwhizz";
         }
         if(student % 3 == 0 && student % 5 ==0){
