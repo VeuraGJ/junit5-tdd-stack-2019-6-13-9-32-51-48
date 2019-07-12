@@ -8,11 +8,8 @@ public class FizzBuzz {
         if(student == 21){
             return "fizzwhizz";
         }
-        if(student == 15){
+        if(student % 3 == 0 && student % 5 ==0){
             return "fizzbuzz";
-        }
-        if(student == 35){
-            return "buzzwhizz";
         }
         if(student % 3 ==0){
             return "fizz";
