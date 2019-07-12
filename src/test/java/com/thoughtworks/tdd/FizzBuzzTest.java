@@ -47,6 +47,17 @@ public class FizzBuzzTest {
         //then
         assertThat(result, is("buzz"));
     }
+
+    @Test
+    public void should_return_fizz_when_student_is_6(){
+        //given
+        int student =6;
+        FizzBuzz fizzBuzz =new FizzBuzz();
+        //when
+        String result = fizzBuzz.say(student);
+        //then
+        assertThat(result, is("fizz"));
+    }
 }
 
 
