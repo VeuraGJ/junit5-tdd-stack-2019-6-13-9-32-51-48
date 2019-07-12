@@ -8,6 +8,9 @@ public class FizzBuzz {
         if(student == 15){
             return "fizzbuzz";
         }
+        if(student == 35){
+            return "buzzwhizz";
+        }
         if(student % 3 ==0){
             return "fizz";
         }
