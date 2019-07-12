@@ -8,7 +8,7 @@ public class FizzBuzz {
         else  if(student % 5 == 0){
             return "buzz";
         }
-        else  if(student == 7){
+        else  if(student % 7 == 0){
             return "whizz";
         }
         return String.valueOf(student);
